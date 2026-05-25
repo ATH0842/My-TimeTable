@@ -1,0 +1,16 @@
+# Flutter/Dart အမှိုက်များ ရှင်းရန်
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android ဆိုင်ရာ Cache များ ရှင်းရန်
+.gradle/
+local.properties
+**/AndroidStudio*/
+__pycache__/
+
+# OS အမှိုက်များ
+.DS_Store
+Thumbs.db
