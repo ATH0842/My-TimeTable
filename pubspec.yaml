@@ -1,0 +1,24 @@
+name: mytimetable
+description: "A university timetable and roll call application."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^16.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # မြန်မာဖောင့်အတွက် လိုအပ်ရင် font configuration ကို ဒီအောက်မှာ ထည့်နိုင်ပါတယ်
+  
